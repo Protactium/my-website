@@ -3,97 +3,181 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
     <title>Protactium</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
-
-    <!-- Google Fonts -->
+    <link href="assets/img/icon3.png" rel="icon" />
+    <link href="assets/img/icon3.png" rel="apple-touch-icon" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
-
-    <!-- Vendor CSS Files -->
+    <link href="assets/external/aos/aos.css" rel="stylesheet" />
     <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="assets/external/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      href="assets/external/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
+      href="assets/external/boxicons/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link
-      href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <!-- ======= Header ======= -->
-    <header id="header">
-      <div class="container">
-        <h1><a href="index.html">Protactium</a></h1>
-        <h2>I'm a professional <span>developer</span></h2>
-        <script>
-          function openInNewTab(href) {
-            Object.assign(document.createElement("a"), {
-              target: "_blank",
-              rel: "noopener noreferrer",
-              href: href,
-            }).click();
-          }
-
-          function notify(t1, t2) {
-            toastr.options = {
-              closeButton: false,
-              debug: false,
-              newestOnTop: false,
-              progressBar: true,
-              positionClass: "toast-bottom-left",
-              preventDuplicates: false,
-              onclick: null,
-              showDuration: "300",
-              hideDuration: "1000",
-              timeOut: "5000",
-              extendedTimeOut: "1000",
-              showEasing: "swing",
-              hideEasing: "linear",
-              showMethod: "fadeIn",
-              hideMethod: "fadeOut",
-            };
-            toastr.info(t1, t2);
-          }
-        </script>
-        <!-- .navbar -->
+    <header id="header" class="fixed-top header-transparent">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1 class="text-light">
+            <a><span>Protactium</span></a>
+          </h1>
+        </div>
       </div>
     </header>
-    <!-- End Header -->
 
-    <div class="credits">Designed by <a href="#">Protactium</a></div>
+    <section id="hero">
+      <div class="hero-container" data-aos="fade-up">
+        <h1>Protactium</h1>
+        <h2>I'm a professional developer, scripter & designer</h2>
+      </div>
+    </section>
 
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <main id="main">
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+            <h2>Projects</h2>
+          </div>
 
-    <!-- Template Main JS File -->
+          <div class="row justify-content-center">
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-up">
+                <h4 class="title">
+                  <a href="https://www.roblox.com/games/13476851866"
+                    >The shadows</a
+                  >
+                </h4>
+                <p class="description">
+                  The shadows is a game based off phasmophobia, it has the same
+                  quality, same design for everything but handles differently.
+                  You and your friends go to different houses, investigate the
+                  strange activities this supernatural being is causing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="counts" class="counts section-bg">
+        <div class="container">
+          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+            <h2>Statistics</h2>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="100"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Players</strong></p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="bi bi-journal-richtext"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="5"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Current projects</strong></p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="bi bi-code-slash"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="500000"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Total lines of code</strong></p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="10000"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Total visits</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Vapor Development</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a
+                    href="https://www.roblox.com/groups/14840706/Vapor-Development"
+                    >Roblox Group</a
+                  >
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="https://discord.com/invite/GVg6NMzsVb">Discord</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>My socials</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="https://www.roblox.com/users/3097259523/profile"
+                    >Roblox Profile</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/external/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/external/aos/aos.js"></script>
+    <script src="assets/external/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/external/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
