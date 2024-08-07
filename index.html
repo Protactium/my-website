@@ -1,211 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Protactium</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
-    <link href="assets/img/icon3.png" rel="icon" />
-    <link href="assets/img/icon3.png" rel="apple-touch-icon" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
-    <link href="assets/external/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/external/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/external/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/external/boxicons/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/css/style.css" rel="stylesheet" />
-  </head>
+<html><head>
+    <title>raicu.vip</title>
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
 
-  <body>
-    <header id="header" class="fixed-top header-transparent">
-      <div class="container d-flex align-items-center justify-content-between">
-        <div class="logo">
-          <h1 class="text-light">
-            <a><span>Protactium</span></a>
-          </h1>
-        </div>
-      </div>
-    </header>
+        body {
+            background-color: rgb(99, 18, 18);
+            color: #fff;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 24px;
+            font-weight: 300;
+            height: auto;
+            line-height: 24px;
+            margin: 0;
+            min-width: 320px;
+            text-align: center;
+            overflow: hidden;
+            place-content: center;
+        }
 
-    <section id="hero">
-      <div class="hero-container" data-aos="fade-up">
-        <h1>Protactium</h1>
-        <h2>I'm a professional developer, scripter & designer</h2>
-      </div>
-    </section>
+        .header {
+            padding: 50px 0 20px;
+        }
 
-    <main id="main">
-      <section id="projects" class="projects">
-        <div class="container">
-          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-            <h2>ROBLOX Games</h2>
-          </div>
+        @media screen and (max-width: 768px) {
+            .header img {
+                width: 100%;
+                height: auto;
+            }
+        }
 
-          <div class="row justify-content-center">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box" data-aos="fade-up">
-                <h4 class="title">
-                  <a href="https://www.roblox.com/games/13476851866"
-                    >The shadows</a
-                  >
-                </h4>
-                <p class="description">
-                  The shadows is a game based off phasmophobia, 
-                  of the same quality. You and your friends go to 
-                  different houses, investigate the strange activities
-                  this supernatural being is causing.
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box" data-aos="fade-up">
-                <h4 class="title">
-                  <a href="https://www.roblox.com/games/17182743199"
-                    >RUCKUS RNG</a
-                  >
-                </h4>
-                <p class="description">
-                  RUCKUS RNG is a skill-based game where players
-                  roll for different weapons to fight their foes with
-                  their items they're gambled for.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        .content {
+            text-align: center;
+        }
 
-      <section id="counts" class="counts section-bg">
-        <div class="container">
-          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-            <h2>Statistics</h2>
-          </div>
+        .notification {
+            width: auto;
+            height: auto;
+            padding: 12px 20px;
+            margin: 0 auto;
+            line-height: 36px;
+            font-style: normal;
+            font-weight: 300;
+            color: #fff;
+        }
 
-          <div class="row no-gutters">
-            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <i class="bi bi-emoji-smile"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="50"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p><strong>Players</strong></p>
-              </div>
-            </div>
+        .count-down {
+            color: #047beb;
+            font-weight: 300;
+        }
 
-            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <i class="bi bi-journal-richtext"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="2"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p><strong>Current projects</strong></p>
-              </div>
-            </div>
+            .count-down h1 {
+                font-weight: 300;
+            }
 
-            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <i class="bi bi-code-slash"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="30000"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p><strong>Total lines of code</strong></p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <i class="bi bi-people"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="10000"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p><strong>Total visits</strong></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Vapor Development</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a
-                    href="https://www.roblox.com/groups/14840706"
-                    >Roblox Group</a
-                  >
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="https://discord.com/invite/GVg6NMzsVb">Discord</a>
-                </li>
-              </ul>
-            </div>
-             <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Polyonic</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a
-                    href="https://www.roblox.com/groups/33401609"
-                    >Roblox Group</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>My socials</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="https://www.roblox.com/users/3097259523/profile"
-                    >Roblox Profile</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script src="assets/external/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/external/aos/aos.js"></script>
-    <script src="assets/external/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/external/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
-</html>
+                .count-down h1.timer {
+                    font-weight: 600;
+                }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,regular,600">
+</head>
+<body>
+    <script type="text/javascript">
+        window.onload = function () {
+            window.location.href = "https://raicu.vip";
+        };
+    </script>
+</body></html>
